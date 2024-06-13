@@ -1,10 +1,17 @@
 package paquete2;
 
 public class EstudianteDistancia extends Estudiante{
-    
+    /*
+    un error comun al momento de crear un extends es que creemos un constructor
+    que se acople a una clase estudiante
+    */
     private int numeroAsignaturas;
     private double costoAsignatura;
     private double matriculaDistancia;
+
+    public EstudianteDistancia(String n, String a, String iden, int ed) {
+        super(n, a, iden, ed);
+    }
     
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
