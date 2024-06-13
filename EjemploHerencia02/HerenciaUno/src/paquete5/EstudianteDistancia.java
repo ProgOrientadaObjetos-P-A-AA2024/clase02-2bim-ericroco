@@ -14,6 +14,11 @@ public class EstudianteDistancia extends Estudiante{
         numeroAsignaturas = numAsg;
         costoAsignatura = costoAsg;
     }
+    /*
+    En este constructor a mas de recibir las variables que enviaremos a la clase
+    super podemos recibir y asignar variables para esta misma clase
+    ahorrandonos unas lineas de codigo
+    */
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
     public void establecerNumeroAsginaturas(int numero){
