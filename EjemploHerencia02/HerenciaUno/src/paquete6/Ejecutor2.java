@@ -41,6 +41,7 @@ public class Ejecutor2 {
 
             EstudiantePresencial presencial = new EstudiantePresencial(nombre,
                     apellido, id, edad, costoCredito, numCreditos);
+            presencial.calcularMatriculaPresencial();
             System.out.println("Desea salir, pulse S");
             entrada.nextLine();
             cadena = String.format("%s%s\n", cadena, presencial);

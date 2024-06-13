@@ -54,10 +54,10 @@ public class EstudiantePresencial extends Estudiante {
         String cadena = String.format("Nombre del estudiante: %s\n"
                 + "Apellido del estudiante: %s\n"
                 + "Id: %s\nEdad: %s\nCosto creditos: %.2f\n"
-                + "Numero creditos %d\n", obtenerNombresEstudiante(),
-                 obtenerApellidoEstudiante(), obtenerIdentificacionEstudiante(),
-                 obtenerEdadEstudiante(), obtenerCostoCredito(),
-                 obtenerNumeroCreditos());
+                + "Numero creditos %d\nCosto Matricula: %.2f", obtenerNombresEstudiante(),
+                obtenerApellidoEstudiante(), obtenerIdentificacionEstudiante(),
+                obtenerEdadEstudiante(), obtenerCostoCredito(),
+                obtenerNumeroCreditos(), obtenerMatriculaPresencial());
         return cadena;
     }
 
